@@ -12,7 +12,7 @@ spring:
       hibernate:
 #        show_sql: true
         format_sql: true
-        use_sql_comments: true # show JPQL comment
+#        use_sql_comments: true # show JPQL comment
 #        default_batch_fetch_size: 100
 
 logging:
