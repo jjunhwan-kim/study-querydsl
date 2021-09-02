@@ -16,7 +16,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest
 @Transactional
-@Commit
 class QuerydslApplicationTests {
 
 	@Autowired
@@ -37,5 +36,4 @@ class QuerydslApplicationTests {
 		assertThat(result).isEqualTo(hello);
 		assertThat(result.getId()).isEqualTo(hello.getId());
 	}
-
 }
